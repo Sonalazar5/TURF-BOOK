@@ -1,12 +1,16 @@
+import Add from "./components/Add";
+import SignUp from "./components/SignUp";
 
 
-import Add from './components/Add';
+
 
 function App() {
   return (
+    <div>
+      <Add/>
+      <SignUp/>
     
-     <Add/>
-    
+     </div>
   );
 }
 
